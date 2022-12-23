@@ -9,8 +9,8 @@ pipeline{
                 stage ('deploy'){
                         steps{
                               sh "rm -rf *"
-			      sh "scp -r index.html /var/www/html/
-			      sh "chmod -R 777 /var/www/html/index.html
+			      sh "scp -r index.html /var/www/html/"
+			      sh "chmod -R 777 /var/www/html/index.html"
                              }
                 }
 				
